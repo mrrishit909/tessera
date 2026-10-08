@@ -1,0 +1,30 @@
+{
+ "openapi": "3.1.0",
+ "info": {
+  "title": "TESSERA API",
+  "version": "1.0.0",
+  "description": "Synthetic conservation-lab demo data."
+ },
+ "paths": {
+  "/v1/regions": {
+   "get": {
+    "summary": "Damage regions"
+   }
+  },
+  "/v1/log": {
+   "get": {
+    "summary": "Conservation log, filter by ?mode="
+   }
+  },
+  "/v1/log/{id}/notes": {
+   "post": {
+    "summary": "Add a note; requires Idempotency-Key"
+   }
+  },
+  "/v1/inspection/live": {
+   "get": {
+    "summary": "WebSocket: replays the seven-modality sequence (query speed=1..60)"
+   }
+  }
+ }
+}

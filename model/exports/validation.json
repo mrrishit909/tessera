@@ -1,0 +1,21 @@
+{
+ "frame.glb": {
+  "tris": 50,
+  "bytes": 7692,
+  "materials": [
+   "GildedGold",
+   "Parchment"
+  ],
+  "missing": [],
+  "orphans": []
+ },
+ "easel.glb": {
+  "tris": 84,
+  "bytes": 7700,
+  "materials": [
+   "VarnishBrown"
+  ],
+  "missing": [],
+  "orphans": []
+ }
+}
